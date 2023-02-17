@@ -50,8 +50,7 @@ class newReleasesItem extends StatelessWidget {
                 );
                 addFavoritesMovieToFireStore(fav);
               },
-              child: provider.fav == true ? Image.asset('assets/images/bookmarkyellow.png')
-                  :Image.asset('assets/images/bookmark.png') ),
+              child: Image.asset('assets/images/bookmark.png')),
         ],
       ),
     );
