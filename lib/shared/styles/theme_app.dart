@@ -7,10 +7,12 @@ class AppStyle{
   static Color itemBackColor = Color(0xff343534);
   static Color date_type_color = Color(0xffB5B4B4);
   static Color bottomNavSelectedColor = Color(0xffFFBB3B);
-  static Color divider=const Color(0xFF707070);
+  static Color grayColor = Color(0xff282A28);
+  static Color recommendedItemColor = Color(0xff373937);
+  static Color backgroundColor=Color.fromRGBO(18, 19, 18, 1.0);
 
   static ThemeData lightTheme = ThemeData(
-      scaffoldBackgroundColor: secondaryColor,
+      //scaffoldBackgroundColor: secondaryColor,
       canvasColor: canvasColor,
       primaryColor: primaryColor,
       textTheme: TextTheme(

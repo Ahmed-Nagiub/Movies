@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import '../../screens/home/home_screen.dart';
+import '../home_layout.dart';
 
 class SplashScreen extends StatelessWidget {
 
@@ -9,7 +9,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Timer(Duration(seconds: 3),(){
-      Navigator.pushReplacementNamed(context, HomeScreen.routeName);
+      Navigator.pushReplacementNamed(context, HomeLayout.routeName);
     });
     return Scaffold(
       backgroundColor: Colors.black,
